@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Nanum Gothic', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 150px;
+    height: 80vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.hero-content {
+    margin: 50px 0;
+    display: flex;
+    gap: 100px;
+
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.hero-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 12px 8px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 150px;
+
+}
+
+.services {
+    text-align: center;
+    margin: 50px;
+}
+
+.wrapper {
+    margin: 0px 50px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.box-wrapper {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin: 0 25px;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+    padding: 80px 160px;
+    margin: 80px 0;   
+}
+
+.quote-wrapper p{
+    font-size: 36px;
+    font-weight: 300px;
+    color: #1F2937;
+}
+
+.quote-wrapper h3 {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 60px 30px;
+    margin: 100px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+
+.cta-compliment a {
+    display: block;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    margin-left: 80px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 60px;
+}
